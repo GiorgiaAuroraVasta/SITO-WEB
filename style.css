@@ -1,0 +1,102 @@
+body{
+    background-color: #6164F3;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display:block
+    margin: 0 auto
+
+}
+
+
+header{
+    max-width: 1600px;
+    background-color: black;
+    margin: 48px;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+header p{
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+header nav ul {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:flex;
+    gap: 16px;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+header nav a : :hover{
+    color: #111
+    text decoration: underline;
+
+    header nav a {
+    color: #ffffff;
+}
+
+header nav a : :hover{
+    color: #111
+    text decoration: underline;
+
+
+}
+section.info{
+    background-color: #000000;
+    padding: 64px 16px;
+}
+section.info h1{
+    margin:0 ;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 68px;
+
+}
+
+section.card{
+    display:grid;
+    margin: auto;
+    gap: 16px
+
+
+}
+footer{
+    margin: 64px auto 0 auto ;
+    max-width: 1600px;
+    border-top:1px solid #000000 ;
+    text-align: center;
+    padding: 24px;
+}
+footer p{
+ font-size: medium;
+ color:#ffffff;
+ margin:auto;
+ text-transform: uppercase;
+ background-color: #000000;
+
+
+
+
+}
+header{
+    flex-direction: column;
+    gap: 16px;
+
+}
